@@ -1,22 +1,14 @@
-# Praktikum
- 
-Вам предстоит решить настоящую задачу машинного обучения, направленную на автоматизацию бизнес процессов. Мы построим модель, которая будет предсказывать общую продолжительность поездки такси в Нью-Йорке.
+By developing an algorithm capable of predicting trip duration, we can easily forecast its cost by multiplying it by a specified tariff. Taxi services have vast amounts of trip data, including details like the starting and ending points, trip date, and duration. These data can be used to predict trip duration automatically with the help of artificial intelligence.
 
-Представьте вы заказываете такси из одной точки Нью-Йорка в другую, причем не обязательно конечная точка должна находиться в пределах города. Сколько вы должны будете за нее заплатить? Известно, что стоимость такси в США рассчитывается на основе фиксированной ставки + тарифная стоимость, величина которой зависит от времени и расстояния. Тарифы варьируются в зависимости от города.
+Business Objective: Identify characteristics and use them to predict taxi trip duration.
 
-В свою очередь время поездки зависит от множества факторов таких как, откуда и куда вы едете, в какое время суток вы совершаете вашу поездку, погодных условий и так далее.
+Technical Task for Data Science Specialists: Build a machine learning model that predicts a numerical feature - taxi trip duration - based on provided customer characteristics. In other words, solve a regression problem.
 
-Таким образом, если мы разработаем алгоритм, способный определять длительность поездки, мы сможем прогнозировать ее стоимость самым тривиальным образом, например, просто умножая стоимость на заданный тариф. Сервисы такси хранят огромные объёмы информации о поездках, включая такие данные как конечная, начальная точка маршрута, дата поездки и ее длительность. Эти данные можно использовать для того, чтобы прогнозировать длительность поездки в автоматическом режиме с привлечением искусственного интеллекта.
+Key Project Goals:
 
-Бизнес-задача: определить характеристики и с их помощью спрогнозировать длительность поездки такси.
-
-Техническая задача для вас как для специалиста в Data Science: построить модель машинного обучения, которая на основе предложенных характеристик клиента будет предсказывать числовой признак - время поездки такси. То есть решить задачу регрессии.
-
-Основные цели проекта:
-
-Сформировать набор данных на основе нескольких источников информации
-Спроектировать новые признаки с помощью Feature Engineering и выявить наиболее значимые при построении модели
-Исследовать предоставленные данные и выявить закономерности
-Построить несколько моделей и выбрать из них наилучшую по заданной метрике
-Спроектировать процесс предсказания времени длительности поездки для новых данных
-Загрузить свое решение на платформу Kaggle, тем самым поучаствовав в настоящем Data Science соревновании. Во время выполнения проекта вы отработаете навыки работы с несколькими источниками данных, генерации признаков, разведывательного анализа и визуализации данных, отбора признаков и, конечно же, построения моделей машинного обучения!
+1.Create a dataset from multiple sources.
+2.Engineer new features using feature engineering and identify the most significant ones when building the model.
+3.Explore the provided data and discover patterns.
+4.Build multiple models and select the best one based on a specified metric.
+5.Design a process for predicting trip duration for new data.
+6.Upload the solution to the Kaggle platform, participating in a real Data Science competition.
